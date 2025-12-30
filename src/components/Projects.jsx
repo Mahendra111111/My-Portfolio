@@ -12,17 +12,45 @@ const projects = [
   },
   {
     id: 2,
-    title: "Uber Clone",
+    title: "Divines Code",
     description: "Ride-booking application built with the MERN stack featuring real-time GPS tracking, ride booking, driver & rider dashboards, and multiple payment methods. Designed for scalability and optimized UI/UX.",
     image: "/assets/project2.png",
-    link: "https://github.com/Mahendra111111/UberClone.git"
+    link: "https://divinescode.com"
   },
   {
     id: 3,
     title: "Gaushala Management Dashboard",
     description: "A React and Tailwind CSS based management system for cow shelters (Gaushalas). Includes modules for tracking cows, donations, staff, and resources with an intuitive dashboard and clean UI design.",
     image: "/assets/project3.png",
-    link: "#" // Replace with GitHub repo link if public
+    link: "https://github.com/Mahendra111111/Gaushala-Management-System.git"
+  },
+  {
+    id: 4,
+    title: "Influencer Management Dashboard",
+    description: "A React and Tailwind CSS based management system for influencer marketing. Includes modules for tracking influencers, donations, staff, and resources with an intuitive dashboard and clean UI design.",
+    image: "/assets/project3.png",
+    link: "https://github.com/Mahendra111111/influencerflow.git"
+  },
+  {
+    id: 5,
+    title: "AI Image Generator",
+    description: "A React and Tailwind CSS based management system for cow shelters (Gaushalas). Includes modules for tracking cows, donations, staff, and resources with an intuitive dashboard and clean UI design.",
+    image: "/assets/project3.png",
+    link: "https://github.com/Mahendra111111/Ai-Image-Generator.git"
+  },
+  {
+    id: 6,
+    title: "Riyanshamrit.com",
+    description: "A React and Tailwind CSS based management system for cow shelters (Gaushalas). Includes modules for tracking cows, donations, staff, and resources with an intuitive dashboard and clean UI design.",
+    image: "/assets/project3.png",
+    link: "https://riyanshamrit.com"
+  },
+  {
+    id: 7,
+    title: "Tellstar.in",
+    description: "A React and Tailwind CSS based management system for cow shelters (Gaushalas). Includes modules for tracking cows, donations, staff, and resources with an intuitive dashboard and clean UI design.",
+    image: "/assets/project3.png",
+    link: "https://tellstar.in"
   }
 ];
 

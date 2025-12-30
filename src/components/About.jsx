@@ -26,15 +26,15 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I'm a passionate full-stack developer specializing in **React.js & Node.js**. I thrive on blending technical expertise with sleek UI/UX design to build high-performing, user-friendly applications.
+          I’m a full-stack developer who believes that good software is built by understanding real problems first — not just writing code. I enjoy creating clean, scalable, and user-friendly web applications that actually make workflows simpler for users and businesses.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          My web development journey started in **2015**, and since then, I've continuously evolved, taking on new challenges and keeping up with the latest technologies. Today, I build **cutting-edge web applications** using **Next.js, TypeScript, NestJS, TailwindCSS, Supabase, and more**.
+          My development journey began in 2022, and since then I’ve worked on real-world projects including admin dashboards, management systems, SaaS-style platforms, and full-stack products. I primarily work with React, Next.js, Node.js, Express, Supabase, and modern UI tools, focusing on performance, maintainability, and smooth user experience.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          Beyond coding, I enjoy sharing insights on **Twitter**, engaging with **Indie Hackers**, and following the journey of **early-stage startups**. Feel free to follow me on **Twitter** or check out my projects on **GitHub**.
+          I’m constantly learning and experimenting with better ways to build products, improve architecture, and write cleaner code. Beyond development, I enjoy exploring startup journeys, understanding how products scale, and building projects that can create real impact. You’ll usually find me improving my craft, shipping features, or refining ideas into working solutions.
         </p>
       </motion.div>
     </div>

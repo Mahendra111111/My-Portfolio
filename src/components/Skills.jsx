@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaJs, FaReact, FaNodeJs, FaPython, FaDatabase } from "react-icons/fa";
+import { FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { CgFigma } from "react-icons/cg";
-import { SiSupabase, SiExpress } from "react-icons/si"; // ✅ Added
+import { SiSupabase, SiExpress, SiRedux } from "react-icons/si";
 
 export default function Skills() {
   const [skills] = useState([
     { id: 1, name: "JavaScript", icon: <FaJs size={50} /> },
     { id: 2, name: "React", icon: <FaReact size={50} /> },
     { id: 3, name: "Node.js", icon: <FaNodeJs size={50} /> },
-    { id: 4, name: "Python", icon: <FaPython size={50} /> },
+    { id: 4, name: "Redux", icon: <SiRedux size={50} /> },
     { id: 5, name: "MongoDB", icon: <FaDatabase size={50} /> },
     { id: 6, name: "Supabase", icon: <SiSupabase size={50} /> },
     { id: 7, name: "Express.js", icon: <SiExpress size={50} /> },
@@ -22,18 +22,32 @@ export default function Skills() {
   const [experiences] = useState([
     {
       id: 1,
+      company: "Divines Code – Malegaon, Maharashtra (On-site)",
+      role: "Full Stack Developer Intern",
+      period: "Oct 2025 – Present",
+      description: `
+• Designed, developed, and deployed complete full-stack web solutions for real business clients  
+• Built admin panels, dashboards, and authentication flows tailored to specific business requirements  
+• Implemented scalable backend logic and database-driven features using Node.js, Express, and Supabase  
+• Collaborated closely with design and marketing teams to deliver user-focused, production-ready applications  
+• Took ownership of features from requirement understanding to deployment and maintenance
+`,
+      logo: "/assets/divinescode.png",
+    },
+    {
+      id: 2,
       company: "DigiMirai – Malegaon, Maharashtra (On-site)",
       role: "Full Stack Developer Intern",
-      period: "Jul 2025 – Present",
+      period: "May 2025 – Sep 2025",
       description: `
 • Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)  
 • Integrated APIs and optimized backend functionality while enhancing UI/UX for client-facing projects  
 • Collaborated in agile development cycles, contributing to code reviews, testing, and deployment processes  
-• Gained hands-on experience with modern tools and platforms including React.js, Next.js, Supabase, Shopify, WordPress, n8n, and cloud services`,
+• Gained hands-on experience with modern tools and platforms including React.js, Next.js, Supabase, n8n, and cloud services`,
       logo: "/assets/DigiMirai.png",
     },
     {
-      id: 2,
+      id: 3,
       company: "Codsoft (Remote)",
       role: "Web Development Intern",
       period: "Nov 2024 – Dec 2024",
